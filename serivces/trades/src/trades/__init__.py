@@ -1,2 +1,2 @@
-def hello() -> str:
-    return "Hello from trades!"
+# def hello() -> str:
+#     return "Hello from trades!"
