@@ -41,7 +41,7 @@ nodes:
       listenAddress: "127.0.0.1"
       protocol: TCP
 
-    # Expose Kafka broker to localhost:31234
+    # Expose Kafka broker to localhost:31234,  nc -vvv localhost 31234
     - containerPort: 31234
       hostPort: 31234
       listenAddress: "127.0.0.1"
